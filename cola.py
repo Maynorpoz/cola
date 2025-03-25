@@ -97,8 +97,8 @@ class TaskAndCustomerManager:
 
     def show_status(self):
         """Muestra el estado actual de tareas y clientes"""
-        return (f"📌 Tareas:\nPrioritarias: {self.high_priority_tasks}\nNormales: {self.normal_tasks}\n\n"
-                f"🛒 Clientes:\nVIP: {self.vip_customers}\nRegulares: {self.regular_customers}")
+        return (f"Tareas:\nPrioritarias: {self.high_priority_tasks}\nNormales: {self.normal_tasks}\n\n"
+                f"Clientes:\nVIP: {self.vip_customers}\nRegulares: {self.regular_customers}")
 
 # ------------------ Pruebas ------------------
 manager = TaskAndCustomerManager()
