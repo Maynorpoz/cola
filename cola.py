@@ -52,7 +52,6 @@ class Queue:
             current = current.next
         return " <- ".join(elements) if elements else "Cola vacía"
 
-# ------------------ Sistema General ------------------
 class TaskAndCustomerManager:
     def __init__(self):
         # Colas para la gestión de tareas
@@ -100,7 +99,6 @@ class TaskAndCustomerManager:
         return (f"Tareas:\nPrioritarias: {self.high_priority_tasks}\nNormales: {self.normal_tasks}\n\n"
                 f"Clientes:\nVIP: {self.vip_customers}\nRegulares: {self.regular_customers}")
 
-# ------------------ Pruebas ------------------
 manager = TaskAndCustomerManager()
 
 # Agregar tareas
